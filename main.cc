@@ -12,8 +12,8 @@ int main(int argc, char **argv){
         }
     }
 
-    cout << "Number of Lines: " << countLine("me.txt") << endl;
-    cout << "Number of characters: " << countChar("me.txt") << endl;
+    cout << "Number of Lines: " << countLine("USA.txt") << endl;
+    cout << "Number of characters: " << countChar("USA.txt") << endl;
 
     return 0;
 }

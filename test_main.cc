@@ -8,15 +8,15 @@
 using namespace std;
 
 TEST_CASE( "Load a file and check the number of lines only") {
-    string text = "me.txt";
+    string text = "USA.txt";
     int count;
     count = countLine(text);
-    REQUIRE(count == 40);
+    REQUIRE(count == 43);
 }
 
 TEST_CASE( "Load a file and check the number of characters only") {
-    string text = "me.txt";
+    string text = "USA.txt";
     int count;
     count = countChar(text);
-    REQUIRE(count == 10389);
+    REQUIRE(count == 2866);
 }
